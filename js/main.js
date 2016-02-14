@@ -1,5 +1,3 @@
-var start = new Date;
-
 $("#u_0_1").append("<div class='_1uh-'><p id='timer'></p></div>");
 
 var store_timer_seconds = function() {
@@ -25,4 +23,6 @@ chrome.storage.sync.get('timeSpentOnFacebook', function(result){
 		$("#timer").timer(timer_settings);
 	}
 });
+
+
 
